@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: 1447a1e5f5e96cc4fac127b86b273090
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 130
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244ac5be2ef1f8a4da62361986eb5045
+      internalID: 1399836057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__1
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1621
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73be205dc2ff6884bb5eb6f3c22ce5e0
+      internalID: 1787755820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__2
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1621
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0e96d1b072d0f47aee8145a8c8a52a
+      internalID: 345249031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__3
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1621
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78a046f190294840b4a056ff5756d50
+      internalID: -1879553324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__4
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 1621
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb792e630efa5f54fa43ef96dc8897fc
+      internalID: -99882528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__5
+      rect:
+        serializedVersion: 2
+        x: 2740
+        y: 1621
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2f6c9cdc32ed44799093d3bc483344
+      internalID: -536006919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__6
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 1621
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c84a7d4def7fd141b9ad1c30041ce37
+      internalID: 573231128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1082
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a8db342d38cf947a921101a2bbc5ec
+      internalID: -761250331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__8
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1082
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15979c0f7651d3e4ea663f041ac1a736
+      internalID: 1663807437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__9
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1082
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b078130f4eccd48be18a8c4cab7efb
+      internalID: -298650275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__10
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1082
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a2d5cc7e22ac5429561069e23b5b0f
+      internalID: 258679844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__11
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 1082
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699ae1261b19c8444aa9de5506c8da8a
+      internalID: -1208371077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__12
+      rect:
+        serializedVersion: 2
+        x: 2740
+        y: 1082
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3926c97c48df4274fbfba8ff5de16cf2
+      internalID: -22090211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__13
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 1082
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7d6f4cade0e2e45abe16c220c3bb40
+      internalID: 1420377078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1fdae6c0f57eb45961ebe622bdc1ca
+      internalID: -1314684246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__15
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 543
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee207a36a7cef3542bc65775fe09be19
+      internalID: -1404279399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__16
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 543
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57cbad3612d1ff4d98d3fea86c3ff31
+      internalID: 1141262350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__17
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 543
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b017c21af18dec34499f66ad4af745e8
+      internalID: -1056336944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__18
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 543
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ca5eca02da7254aae0d71f51357b3e
+      internalID: 336941671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__19
+      rect:
+        serializedVersion: 2
+        x: 2740
+        y: 543
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b432bbd4fc7e464097e86c4a766316b
+      internalID: 1648137338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__20
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 543
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad84db20951fb0146b7309dc11e41daf
+      internalID: 742844468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983646b7bf6fcae41bd2f16072e1d6ae
+      internalID: -427284612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__22
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 4
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e4192fffa765d43bbf22d0b6200de4
+      internalID: -897436890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__23
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 4
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b044225d976e9c4cab7514804598898
+      internalID: -894371979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__24
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 4
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0f4333e923e274895681637dceb838
+      internalID: 1613979153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__25
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 4
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dd1c2f51955064c815bfcdb259c7fd
+      internalID: -1825537530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__26
+      rect:
+        serializedVersion: 2
+        x: 2740
+        y: 4
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed1e089796cd8242ab3e3e9ed08b8a0
+      internalID: 244267462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hutan_Kebakaran__27
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 4
+        width: 548
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5e55f8de546cd41818b760ccd0b15e
+      internalID: -789289199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hutan_Kebakaran__0: 1399836057
+      Hutan_Kebakaran__1: 1787755820
+      Hutan_Kebakaran__10: 258679844
+      Hutan_Kebakaran__11: -1208371077
+      Hutan_Kebakaran__12: -22090211
+      Hutan_Kebakaran__13: 1420377078
+      Hutan_Kebakaran__14: -1314684246
+      Hutan_Kebakaran__15: -1404279399
+      Hutan_Kebakaran__16: 1141262350
+      Hutan_Kebakaran__17: -1056336944
+      Hutan_Kebakaran__18: 336941671
+      Hutan_Kebakaran__19: 1648137338
+      Hutan_Kebakaran__2: 345249031
+      Hutan_Kebakaran__20: 742844468
+      Hutan_Kebakaran__21: -427284612
+      Hutan_Kebakaran__22: -897436890
+      Hutan_Kebakaran__23: -894371979
+      Hutan_Kebakaran__24: 1613979153
+      Hutan_Kebakaran__25: -1825537530
+      Hutan_Kebakaran__26: 244267462
+      Hutan_Kebakaran__27: -789289199
+      Hutan_Kebakaran__3: -1879553324
+      Hutan_Kebakaran__4: -99882528
+      Hutan_Kebakaran__5: -536006919
+      Hutan_Kebakaran__6: 573231128
+      Hutan_Kebakaran__7: -761250331
+      Hutan_Kebakaran__8: 1663807437
+      Hutan_Kebakaran__9: -298650275
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
