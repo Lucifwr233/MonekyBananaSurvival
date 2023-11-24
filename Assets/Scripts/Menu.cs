@@ -4,6 +4,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
+    [SerializeField] AudioClip[] audioGame;
+    AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = audioGame[0];
+        audioSource.Play();
+    }
     public void OnPlayButton()
     {
         SceneManager.LoadScene("Gameplay");
@@ -12,6 +21,8 @@ public class Menu : MonoBehaviour
     public void OnAboutButton()
     {
         SceneManager.LoadScene("About");
+        audioSource.clip = audioGame[0];
+        audioSource.Play();
     }
 
 

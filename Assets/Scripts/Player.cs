@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -28,6 +29,9 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
+        //gameplay audio music
+        audioSource.clip = audioGame[3];
+        audioSource.Play();
     }
 
     // Update is called once per frame
@@ -100,10 +104,18 @@ public class Player : MonoBehaviour
         mainCamera.transform.position = new Vector3(smoothX, mainCamera.transform.position.y, mainCamera.transform.position.z);
     }
 
-    private void OnTriggerEnter2D(Collider2D player)
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (player.tag == "Ground")
+        if (other.tag == "Ular") // Assuming "Ular" is the tag of your snake/enemy
         {
+            // Player is touching the enemy, do whatever you want (e.g., player dies)
+            SceneManager.LoadScene("gameplay");
+            // Add your player death logic here
+        }
+        else if (other.tag == "Ground")
+        {
+            // Code for when player touches the ground
             animator.SetBool("IsJumping", false);
             isGrounded = true;
         }
