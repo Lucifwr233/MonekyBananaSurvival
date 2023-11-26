@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class Player : MonoBehaviour
 {
@@ -14,8 +16,6 @@ public class Player : MonoBehaviour
     [SerializeField] float jump = 9f;
     [SerializeField] float cameraFollowSpeed = 5f;
     [SerializeField] AudioClip[] audioGame;
-    [SerializeField] private float maxHealth = 100f;
-    [SerializeField] private float healthPlayer;
     AudioSource audioSource;
 
     Rigidbody2D rb;
@@ -27,11 +27,9 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //rigidbody
         rb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
-        //gameplay audio music
-        audioSource.clip = audioGame[3];
-        audioSource.Play();
     }
 
     // Update is called once per frame
@@ -44,10 +42,6 @@ public class Player : MonoBehaviour
         SmoothCameraFollow();
     }
 
-    public void dmgPlayer()
-    {
-        healthPlayer = healthPlayer - 35f;
-    }
 
     public void CoinColl()
     {

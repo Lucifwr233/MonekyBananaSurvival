@@ -11,8 +11,6 @@ public class CoinText : MonoBehaviour
     public int coinTotal = 0;
     TextMeshProUGUI coinText;
 
-    [SerializeField] GameObject lives;
-
 
     // Start is called before the first frame update
     void Start()

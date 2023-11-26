@@ -51,7 +51,7 @@ public class Ular_Enemy : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            // Player touched the enemy, do whatever you want (e.g., destroy the enemy)
+            // Player touched the enemy, do whatever you want (e.g., destroy the enemy
             SceneManager.LoadScene("gameplay");
         }
     }

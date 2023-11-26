@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Tawon_Enemy : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 5f;
+    [SerializeField] private float damage;
 
     private bool isMoving = false;
     private Camera mainCamera;
@@ -38,13 +39,13 @@ public class Tawon_Enemy : MonoBehaviour
         isMoving = true;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.tag == "Player")
+        if (collision.tag == "Player")
         {
-            // Do whatever you want when the enemy collides with the player
-            SceneManager.LoadScene(1);
-            Destroy(this.gameObject);
+            collision.GetComponent<Health>().TakeDamage(damage);
+
         }
     }
 
