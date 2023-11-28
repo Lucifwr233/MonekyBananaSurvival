@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     bool isGrounded = false;
     bool isFacingRight = true;
+    bool isMovementEnabled = true; 
+    bool isJumpingEnabled = true;
     public Camera mainCamera;
 
 
@@ -37,7 +39,7 @@ public class Player : MonoBehaviour
     {
         animator.SetFloat("Speed", Mathf.Abs(hMove));
         MovingPlayer();
-        JumpingPlayer();
+        //JumpingPlayer();
         FlipCharacter();
         SmoothCameraFollow();
     }
@@ -55,19 +57,38 @@ public class Player : MonoBehaviour
         audioSource.Play();
     }
 
-    void MovingPlayer()
+    public void MovingPlayer()
     {
-        hMove = Input.GetAxis("Horizontal");
-        dir = new Vector2(hMove, 0);
+        if (isMovementEnabled)
+        { 
+            hMove = Input.GetAxis("Horizontal");
+            dir = new Vector2(hMove, 0);
 
-        // Use Rigidbody2D for physics-based movement
-        rb.velocity = new Vector2(dir.x * speed, rb.velocity.y);
+            // Use Rigidbody2D for physics-based movement
+            rb.velocity = new Vector2(dir.x * speed, rb.velocity.y);
 
-        // Update the animator's Speed parameter
-        animator.SetFloat("Speed", Mathf.Abs(hMove));
+            // Update the animator's Speed parameter
+            animator.SetFloat("Speed", Mathf.Abs(hMove));
+        }
+        if (isJumpingEnabled)
+        {
+            if (Input.GetKeyDown(KeyCode.W) && isGrounded == true)
+            {
+                rb.velocity = new Vector2(0, 1) * jump;
+                animator.SetBool("IsJumping", true);
+                audioSource.clip = audioGame[0];
+                audioSource.Play();
+            }
+        }
     }
 
-    void JumpingPlayer()
+    public void SetMovementEnabled(bool isEnabled)
+    {
+        isMovementEnabled = isEnabled;
+        isJumpingEnabled = isEnabled;
+    }
+
+   /* void JumpingPlayer()
     {
         if (Input.GetKeyDown(KeyCode.W) && isGrounded == true)
         {
@@ -76,7 +97,7 @@ public class Player : MonoBehaviour
             audioSource.clip = audioGame[0];
             audioSource.Play();
         }
-    }
+    }*/
 
     void FlipCharacter()
     {

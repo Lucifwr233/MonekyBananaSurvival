@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Ular_Enemy : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 5f;
+    [SerializeField] private float damage;
 
     private bool isMoving = false;
     private Camera mainCamera;
@@ -47,12 +48,12 @@ public class Ular_Enemy : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.tag == "Player")
+        if (collision.tag == "Player")
         {
             // Player touched the enemy, do whatever you want (e.g., destroy the enemy
-            SceneManager.LoadScene("gameplay");
+            collision.GetComponent<Health>().TakeDamage(damage);
         }
     }
 

@@ -23,6 +23,13 @@ public class Health : MonoBehaviour
         else
         {
             //player die
+            GetComponent<Player>().SetMovementEnabled(false);
+            PauseMenu.GameIsOver = true;
         }
+    }
+
+    public void AddHealth(float _value)
+    {
+        currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
     }
 }

@@ -6,7 +6,7 @@ public class EnviromentMusic : MonoBehaviour
 {
 
     [SerializeField] AudioClip[] audioGame;
-    AudioSource audioSource;
+    public AudioSource audioSource { get; private set; }
 
     // Start is called before the first frame update
     void Start()
