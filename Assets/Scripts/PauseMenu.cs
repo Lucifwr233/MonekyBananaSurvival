@@ -1,35 +1,46 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public static bool GameIsOver = false;
+    public static bool GameIsFinished = false;
 
     public GameObject pauseMenuUI;
     public GameObject GameOver;
     public GameObject InGameUI;
+    public GameObject FinishUI;
+    public GameObject CoinText;
 
     // Update is called once per frame
     void Update()
     {
-        if (GameIsOver)
+        if (GameIsFinished)
         {
-            gameover();
+            finish();
         }
-        else
-        {
-            if (Input.GetKeyDown(KeyCode.Escape))
+        else {
+            if (GameIsOver)
             {
-                if (GameIsPaused)
+                gameover();
+            }
+            else
+            {
+                if (Input.GetKeyDown(KeyCode.Escape))
                 {
-                    Resume();
-                }
-                else
-                {
-                    Pause();
+                    if (GameIsPaused)
+                    {
+                        Resume();
+                    }
+                    else
+                    {
+                        Pause();
+                    }
                 }
             }
         }
@@ -46,6 +57,7 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        GameIsFinished = false;
 
         // Find the GameObject with the Player component
         Player player = FindObjectOfType<Player>();
@@ -69,6 +81,7 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        GameIsFinished = false;
 
         // Find the GameObject with the Player component
         Player player = FindObjectOfType<Player>();
@@ -98,8 +111,14 @@ public class PauseMenu : MonoBehaviour
         InGameUI.SetActive(true);
         GameOver.SetActive(false);
         GameIsOver = false;
+        GameIsFinished = false;
         Time.timeScale = 1f;
         SceneManager.LoadScene("Gameplay");
+    }
+
+    public void NextLevel()
+    {
+        //loadscene next level 2
     }
 
     //gameover
@@ -114,5 +133,22 @@ public class PauseMenu : MonoBehaviour
         {
             environmentMusic.audioSource.enabled = false;
         }
+    }
+
+
+
+    public void finish()
+    {
+        Time.timeScale = 0f;
+        InGameUI.SetActive(true);
+        FinishUI.SetActive(true);
+        GameIsFinished = true;
+        EnviromentMusic environmentMusic = FindObjectOfType<EnviromentMusic>();
+        if (environmentMusic != null)
+        {
+            environmentMusic.audioSource.enabled = false;
+        }
+
+        // Get the CoinText script attached to the CoinText GameObject
     }
 }

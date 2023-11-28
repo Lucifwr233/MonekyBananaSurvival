@@ -15,6 +15,9 @@ public class Menu : MonoBehaviour
     }
     public void OnPlayButton()
     {
+        PauseMenu.GameIsFinished = false;
+        Time.timeScale = 1f;
+        PauseMenu.GameIsPaused = false;
         SceneManager.LoadScene("Gameplay");
     }
 
