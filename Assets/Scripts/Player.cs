@@ -14,7 +14,6 @@ public class Player : MonoBehaviour
 
     [SerializeField] float speed = 10;
     [SerializeField] float jump = 9f;
-    [SerializeField] float cameraFollowSpeed = 5f;
     [SerializeField] AudioClip[] audioGame;
     AudioSource audioSource;
 
@@ -23,7 +22,6 @@ public class Player : MonoBehaviour
     bool isFacingRight = true;
     bool isMovementEnabled = true; 
     bool isJumpingEnabled = true;
-    public Camera mainCamera;
 
 
     // Start is called before the first frame update
@@ -41,7 +39,6 @@ public class Player : MonoBehaviour
         MovingPlayer();
         //JumpingPlayer();
         FlipCharacter();
-        SmoothCameraFollow();
     }
 
 
@@ -109,14 +106,6 @@ public class Player : MonoBehaviour
             scale.x *= -1;
             transform.localScale = scale;
         }
-    }
-
-    void SmoothCameraFollow()
-    {
-        // Smoothly follow the player's X position
-        float targetX = transform.position.x;
-        float smoothX = Mathf.Lerp(mainCamera.transform.position.x, targetX, cameraFollowSpeed * Time.deltaTime);
-        mainCamera.transform.position = new Vector3(smoothX, mainCamera.transform.position.y, mainCamera.transform.position.z);
     }
 
 
