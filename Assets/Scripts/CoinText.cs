@@ -8,27 +8,33 @@ using UnityEngine.SceneManagement;
 
 public class CoinText : MonoBehaviour
 {
-    public int coinTotal = 0;
     TextMeshProUGUI coinText;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        
+    }
+
+
+
+    public void UpdateValue()
+    {
+        coinText.text = "Banana : " + LevelManager.instance.TotalCoin;
+    }
+
+    void OnEnable()
+    {
         coinText = GetComponent<TextMeshProUGUI>();
+        UpdateValue();
+        if (LevelManager.instance == null) return;
+        LevelManager.instance.coinPickup.AddListener(UpdateValue);
     }
 
-    void Update()
+    void OnDisable() 
     {
-        //if (coinTotal >= 10)
-        //{
-          //  SceneManager.LoadScene(0);
-       // }
-    }
-
-    public void AddScore()
-    {
-        coinTotal++;
-        coinText.text = "Banana : " + coinTotal;
+        if (LevelManager.instance == null) return;
+        LevelManager.instance.coinPickup.RemoveListener(UpdateValue);
     }
 }

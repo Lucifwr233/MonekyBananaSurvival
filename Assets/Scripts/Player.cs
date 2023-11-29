@@ -8,6 +8,8 @@ using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class Player : MonoBehaviour
 {
+    public static Player instance;
+
     public Animator animator;
     float hMove;
     Vector2 dir;
@@ -30,6 +32,11 @@ public class Player : MonoBehaviour
         //rigidbody
         rb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
+    }
+
+    private void Awake()
+    {
+        instance = this;
     }
 
     // Update is called once per frame
@@ -72,9 +79,10 @@ public class Player : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.W) && isGrounded == true)
             {
                 rb.velocity = new Vector2(0, 1) * jump;
-                animator.SetBool("IsJumping", true);
+                animator.SetBool("IsJumping",true);
                 audioSource.clip = audioGame[0];
                 audioSource.Play();
+                Debug.Log("jump");
             }
         }
     }

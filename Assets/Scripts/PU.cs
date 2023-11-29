@@ -6,17 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class PU : MonoBehaviour
 {
-    [SerializeField] GameObject coinText;
-    [SerializeField] GameObject FinishCoinText;
-    CoinText coinScript;
-
     Player player;
-    [SerializeField] GameObject playerOBJ;
     // Start is called before the first frame update
     void Start()
     {
-        coinScript = coinText.GetComponent<CoinText>();
-        player = playerOBJ.GetComponent<Player>();
+        player = Player.instance;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -24,8 +18,9 @@ public class PU : MonoBehaviour
         if (collision.tag == "Player")
         {
             player.CoinColl();
-            coinScript.AddScore();
+            LevelManager.instance.TotalCoin++;
             Destroy(this.gameObject);
+
         }
     }
 }

@@ -118,7 +118,9 @@ public class PauseMenu : MonoBehaviour
 
     public void NextLevel()
     {
-        //loadscene next level 2
+        //loadscene next level 
+        FinishUI.SetActive(false);
+        LevelManager.instance.FinisedLevel();
     }
 
     //gameover
@@ -148,7 +150,12 @@ public class PauseMenu : MonoBehaviour
         {
             environmentMusic.audioSource.enabled = false;
         }
+    }
 
-        // Get the CoinText script attached to the CoinText GameObject
+    private void OnEnable()
+    {
+        Time.timeScale = 1f;
+        GameIsPaused = false;
+        GameIsFinished = false;
     }
 }
