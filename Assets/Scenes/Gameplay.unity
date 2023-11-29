@@ -28578,6 +28578,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!212 &92156752
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45352,6 +45354,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &157932665
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45815,7 +45819,7 @@ Transform:
   m_GameObject: {fileID: 191647958}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 95.11, y: -3.94, z: -2.8579977}
+  m_LocalPosition: {x: 95.11, y: -4.31, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -46709,6 +46713,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &278479243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46994,7 +47000,7 @@ Transform:
   m_GameObject: {fileID: 282759717}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 187.44, y: -3.78, z: -2.8579977}
+  m_LocalPosition: {x: 187.44, y: -4.42, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -47696,6 +47702,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!212 &299183379
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48490,6 +48498,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &412168704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49377,6 +49387,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &514862050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50472,6 +50484,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &639995006
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50599,7 +50613,7 @@ Transform:
   m_GameObject: {fileID: 642410367}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 183.89, y: 2.22, z: -2.8579977}
+  m_LocalPosition: {x: 183.89, y: 1.91, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -51054,6 +51068,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &649445462
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58036,6 +58052,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!212 &683326032
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -58343,7 +58361,7 @@ Transform:
   m_GameObject: {fileID: 744859206}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 235.65, y: -3.3, z: -2.8579977}
+  m_LocalPosition: {x: 235.65, y: -4.5, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -59249,6 +59267,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &857169634
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60160,6 +60180,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &912874322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60614,7 +60636,7 @@ Transform:
   m_GameObject: {fileID: 979849497}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.91, y: 1.39, z: -2.8579977}
+  m_LocalPosition: {x: 32.91, y: 1.189, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -61588,7 +61610,7 @@ Transform:
   m_GameObject: {fileID: 1102492376}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 188.31, y: 2.22, z: -2.8579977}
+  m_LocalPosition: {x: 188.31, y: 1.99, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -62574,6 +62596,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!114 &1172275573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64664,6 +64688,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!212 &1402196898
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -64789,7 +64815,7 @@ Transform:
   m_GameObject: {fileID: 1407210240}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 255.57, y: 0.01, z: 0.1911}
+  m_LocalPosition: {x: 255.57, y: -1.05, z: 0.1911}
   m_LocalScale: {x: 0.27421188, y: 0.27421188, z: 0.34789264}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -64808,6 +64834,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &1407210243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -65321,6 +65349,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!212 &1447104850
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65766,6 +65796,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!212 &1476142519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -66077,6 +66109,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!212 &1533778384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -66177,6 +66211,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &1550752111
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -66317,7 +66353,7 @@ Transform:
   m_GameObject: {fileID: 1558527659}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.49, y: -4, z: -2.8579977}
+  m_LocalPosition: {x: 33.49, y: -4.18, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -67248,6 +67284,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &1617676659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68000,6 +68038,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &1672197155
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68287,6 +68327,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &1686758535
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68870,6 +68912,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &1775814511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -69423,6 +69467,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1612675847}
+  Ular_Enemy: {fileID: 0}
+  Tawon_Enemy: {fileID: 0}
 --- !u!61 &1837952690
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -72281,7 +72327,7 @@ Transform:
   m_GameObject: {fileID: 2129178459}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 79.68, y: 0.83, z: -2.8579977}
+  m_LocalPosition: {x: 79.68, y: 0.681, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -72860,7 +72906,7 @@ Transform:
   m_GameObject: {fileID: 2142768523}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 135.12, y: 0.8, z: -2.8579977}
+  m_LocalPosition: {x: 135.12, y: 0.7, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []

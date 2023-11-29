@@ -44,6 +44,7 @@ public class Ular_Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Player" && collision.contacts[0].normal.y > 0.5)
         {
             // Player is touching the top of the enemy, destroy the enemy
+
             Destroy(gameObject);
         }
     }
@@ -54,6 +55,7 @@ public class Ular_Enemy : MonoBehaviour
         {
             // Player touched the enemy, do whatever you want (e.g., destroy the enemy
             collision.GetComponent<Health>().TakeDamage(damage);
+
         }
     }
 

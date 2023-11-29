@@ -5,6 +5,8 @@ using UnityEngine;
 public class Ground : MonoBehaviour
 {
     [SerializeField] GameObject Player;
+    [SerializeField] GameObject Ular_Enemy;
+    [SerializeField] GameObject Tawon_Enemy;
     Collider2D col;
     // Start is called before the first frame update
     void Start()
