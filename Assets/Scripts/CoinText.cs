@@ -21,7 +21,7 @@ public class CoinText : MonoBehaviour
 
     public void UpdateValue()
     {
-        coinText.text = "Banana : " + LevelManager.instance.TotalCoin;
+        coinText.text =LevelManager.instance.TotalCoin + " x";
     }
 
     void OnEnable()

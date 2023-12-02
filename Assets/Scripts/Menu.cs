@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
     [SerializeField] AudioClip[] audioGame;
+    public GameObject AboutUI;
     AudioSource audioSource;
 
     void Start()
@@ -23,15 +24,13 @@ public class Menu : MonoBehaviour
 
     public void OnAboutButton()
     {
-        SceneManager.LoadScene("About");
-        audioSource.clip = audioGame[0];
-        audioSource.Play();
+        AboutUI.SetActive(true);
     }
 
 
     public void BacktoMenu()
     {
-        SceneManager.LoadScene("Menu");
+        AboutUI.SetActive(false);
     }
 
     public void OnQuitButton()
