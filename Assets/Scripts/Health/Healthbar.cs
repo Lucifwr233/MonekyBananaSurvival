@@ -12,12 +12,12 @@ public class Healthbar : MonoBehaviour
     private void Start()
     {
         playerHealth = Player.instance.gameObject.GetComponent<Health>();
-        totalhealthBar.fillAmount = playerHealth.currentHealth / 10;
+        totalhealthBar.fillAmount = playerHealth.currentHealth / 5;
     }
 
 
     private void Update()
     {
-        currenthealthBar.fillAmount = playerHealth.currentHealth / 10;
+        currenthealthBar.fillAmount = playerHealth.currentHealth / 5;
     }
 }

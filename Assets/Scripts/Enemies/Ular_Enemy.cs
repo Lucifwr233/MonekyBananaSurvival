@@ -25,8 +25,9 @@ public class Ular_Enemy : MonoBehaviour
     {
         if (isMoving)
         {
-            // Move horizontally to the left
-            transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+            // Move horizontally using Mathf.PingPong for automatic back-and-forth movement
+            float movement = Mathf.PingPong(Time.time * moveSpeed, 5) - 4f; // PingPong between -1 and 1
+            transform.Translate(Vector2.right * movement * Time.deltaTime);
         }
     }
 

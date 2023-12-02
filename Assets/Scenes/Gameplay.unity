@@ -530,9 +530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &51820163
 GameObject:
   m_ObjectHideFlags: 0
@@ -28149,9 +28146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &60439409
 GameObject:
   m_ObjectHideFlags: 0
@@ -28445,7 +28439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!212 &92156752
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45103,7 +45097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &157932665
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46561,7 +46555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &278479243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46814,9 +46808,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &282759717
 GameObject:
   m_ObjectHideFlags: 0
@@ -47167,9 +47158,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &287568556
 GameObject:
   m_ObjectHideFlags: 0
@@ -47548,7 +47536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!212 &299183379
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48008,9 +47996,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &392551341
 GameObject:
   m_ObjectHideFlags: 0
@@ -48208,7 +48193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &412168704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48800,9 +48785,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &491431291
 GameObject:
   m_ObjectHideFlags: 0
@@ -48958,9 +48940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &500980924
 GameObject:
   m_ObjectHideFlags: 0
@@ -49116,9 +49095,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &514862046
 GameObject:
   m_ObjectHideFlags: 0
@@ -49179,7 +49155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &514862050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50033,7 +50009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &639995006
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50615,7 +50591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &649445462
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -57597,7 +57573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!212 &683326032
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -58524,9 +58500,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &857169630
 GameObject:
   m_ObjectHideFlags: 0
@@ -58587,7 +58560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &857169634
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58984,9 +58957,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &900660030
 GameObject:
   m_ObjectHideFlags: 0
@@ -59142,9 +59112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &909647878
 GameObject:
   m_ObjectHideFlags: 0
@@ -59238,7 +59205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &912874322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60598,9 +60565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &1102492376
 GameObject:
   m_ObjectHideFlags: 0
@@ -61326,7 +61290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!114 &1172275573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61496,9 +61460,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &1182541503
 GameObject:
   m_ObjectHideFlags: 0
@@ -61787,7 +61748,7 @@ Transform:
   m_GameObject: {fileID: 1250949257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -318.59, y: -9.68, z: 11.697684}
+  m_LocalPosition: {x: -282.35, y: -9.68, z: 11.697684}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -62234,9 +62195,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &1290959570
 GameObject:
   m_ObjectHideFlags: 0
@@ -62788,9 +62746,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &1355902306
 GameObject:
   m_ObjectHideFlags: 0
@@ -63150,7 +63105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!212 &1402196898
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -63294,7 +63249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &1407210243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -63807,7 +63762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!212 &1447104850
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -64252,7 +64207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!212 &1476142519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -64480,7 +64435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!212 &1533778384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -64580,7 +64535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &1550752111
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -65074,9 +65029,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &1588484476
 GameObject:
   m_ObjectHideFlags: 0
@@ -65291,7 +65243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &1617676659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -65628,9 +65580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &1642082346
 GameObject:
   m_ObjectHideFlags: 0
@@ -65911,7 +65860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &1672197155
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -66198,7 +66147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &1686758535
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -66488,9 +66437,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &1706039023
 GameObject:
   m_ObjectHideFlags: 0
@@ -66781,7 +66727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &1775814511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -67334,7 +67280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Players: {fileID: 0}
 --- !u!61 &1837952690
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -67839,9 +67785,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &1889503489
 GameObject:
   m_ObjectHideFlags: 0
@@ -67997,9 +67940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &1900304747
 GameObject:
   m_ObjectHideFlags: 0
@@ -68239,9 +68179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &1917536074
 GameObject:
   m_ObjectHideFlags: 0
@@ -68715,9 +68652,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &2034203323
 GameObject:
   m_ObjectHideFlags: 0
@@ -68873,9 +68807,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6df74b8bb703554ab44fee9f862bd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
-  FinishCoinText: {fileID: 0}
-  playerOBJ: {fileID: 0}
 --- !u!1 &2050800052
 GameObject:
   m_ObjectHideFlags: 0
