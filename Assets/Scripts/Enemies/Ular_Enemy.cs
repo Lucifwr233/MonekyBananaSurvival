@@ -40,23 +40,39 @@ public class Ular_Enemy : MonoBehaviour
         isMoving = true;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    /*private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player" && collision.contacts[0].normal.y > 0.5)
         {
             // Player is touching the top of the enemy, destroy the enemy
+            Player player = collision.gameObject.GetComponent<Player>();
 
-            Destroy(gameObject);
+            // Check if the player is touching the enemy's head (feet of the player touching head of the enemy)
+            if (player.transform.position.y > transform.position.y)
+            {
+                // Player's feet are above the enemy's head, destroy the enemy
+                Destroy(gameObject);
+            }
         }
-    }
+    }*/
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            // Player touched the enemy, do whatever you want (e.g., destroy the enemy
-            collision.GetComponent<Health>().TakeDamage(damage);
+            Player player = collision.GetComponent<Player>();
 
+            // Check if the player is touching the enemy's head (feet of the player touching head of the enemy)
+            if (player.transform.position.y > transform.position.y)
+            {
+                // Player's feet are above the enemy's head, destroy the enemy
+                Destroy(gameObject);
+            }
+            else
+            {
+                // Player touched the enemy, do whatever you want (e.g., damage the player)
+                player.GetComponent<Health>().TakeDamage(damage);
+            }
         }
     }
 

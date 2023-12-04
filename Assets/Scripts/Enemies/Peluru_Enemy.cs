@@ -24,9 +24,8 @@ public class Peluru_Enemy : MonoBehaviour
     {
         if (isMoving)
         {
-            // Move horizontally using Mathf.PingPong for automatic back-and-forth movement
-            float movement = Mathf.PingPong(Time.time * moveSpeed, 5) - 4f; // PingPong between -1 and 1
-            transform.Translate(Vector2.right * movement * Time.deltaTime);
+            // Move horizontally to the left
+            transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
         }
     }
 
@@ -39,29 +38,15 @@ public class Peluru_Enemy : MonoBehaviour
         isMoving = true;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player" && collision.contacts[0].normal.y > 0.5)
-        {
-            // Player is touching the top of the enemy, destroy the enemy
-
-            Destroy(gameObject);
-        }
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            // Player touched the enemy, do whatever you want (e.g., destroy the enemy
             collision.GetComponent<Health>().TakeDamage(damage);
 
         }
     }
-
-
-
-
 
     private bool IsVisibleFromCamera()
     {
