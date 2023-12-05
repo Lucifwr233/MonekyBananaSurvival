@@ -384,6 +384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 35163424}
+  - component: {fileID: 35163425}
   m_Layer: 0
   m_Name: Cahaya
   m_TagString: Untagged
@@ -415,6 +416,19 @@ Transform:
   - {fileID: 1577586272}
   m_Father: {fileID: 946959348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &35163425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35163423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: -0.5
 --- !u!1 &39599432
 GameObject:
   m_ObjectHideFlags: 0
@@ -45137,6 +45151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 142632166}
+  - component: {fileID: 142632167}
   m_Layer: 0
   m_Name: bush 2
   m_TagString: Untagged
@@ -45160,6 +45175,19 @@ Transform:
   - {fileID: 1266938781}
   m_Father: {fileID: 946959348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &142632167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142632165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: -0.2
 --- !u!1 &153485507
 GameObject:
   m_ObjectHideFlags: 0
@@ -46212,6 +46240,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 227401419}
+  - component: {fileID: 227401420}
   m_Layer: 0
   m_Name: Api merah
   m_TagString: Untagged
@@ -46249,6 +46278,19 @@ Transform:
   - {fileID: 1396123843}
   m_Father: {fileID: 946959348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &227401420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227401418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0.2
 --- !u!1 &240108213
 GameObject:
   m_ObjectHideFlags: 0
@@ -48845,6 +48887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 429886818}
   - component: {fileID: 429886819}
+  - component: {fileID: 429886820}
   m_Layer: 0
   m_Name: Api Platform 2
   m_TagString: Untagged
@@ -48919,6 +48962,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &429886820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429886817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: -0.4
 --- !u!1 &430283409
 GameObject:
   m_ObjectHideFlags: 0
@@ -48928,6 +48984,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 430283410}
+  - component: {fileID: 430283411}
   m_Layer: 0
   m_Name: pohon kebakar
   m_TagString: Untagged
@@ -48958,6 +49015,19 @@ Transform:
   - {fileID: 959754733}
   m_Father: {fileID: 946959348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &430283411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430283409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0.1
 --- !u!1 &440853986
 GameObject:
   m_ObjectHideFlags: 0
@@ -59679,6 +59749,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 773337144}
+  - component: {fileID: 773337145}
   m_Layer: 0
   m_Name: api gelap
   m_TagString: Untagged
@@ -59708,6 +59779,19 @@ Transform:
   - {fileID: 1622133832}
   m_Father: {fileID: 946959348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &773337145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773337143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0.3
 --- !u!1 &807259313
 GameObject:
   m_ObjectHideFlags: 0
@@ -61085,6 +61169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 925215751}
   - component: {fileID: 925215752}
+  - component: {fileID: 925215753}
   m_Layer: 0
   m_Name: Api Platform
   m_TagString: Untagged
@@ -61159,6 +61244,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &925215753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925215750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: -0.3
 --- !u!1 &946959347
 GameObject:
   m_ObjectHideFlags: 0
@@ -61864,6 +61962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 988638985}
   - component: {fileID: 988638986}
+  - component: {fileID: 988638987}
   m_Layer: 0
   m_Name: bg merah
   m_TagString: Untagged
@@ -61938,6 +62037,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &988638987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988638984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d5bddd0958380438a6d9be0c775105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxCamera: {fileID: 1398229508}
 --- !u!1 &998713235
 GameObject:
   m_ObjectHideFlags: 0
@@ -64482,6 +64594,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1301804971}
+  - component: {fileID: 1301804972}
   m_Layer: 0
   m_Name: Batu
   m_TagString: Untagged
@@ -64525,6 +64638,19 @@ Transform:
   - {fileID: 2080259975}
   m_Father: {fileID: 946959348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1301804972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301804970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: -0.6
 --- !u!1 &1307219247
 GameObject:
   m_ObjectHideFlags: 0
@@ -65378,6 +65504,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca0f4429b602ccc4fbf3aa24c490a206, type: 3}
+--- !u!114 &1398229508 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3063375037396473563, guid: ca0f4429b602ccc4fbf3aa24c490a206, type: 3}
+  m_PrefabInstance: {fileID: 1398229507}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281f9213f1312334eb8d45c62cfd8ad7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1402196895
 GameObject:
   m_ObjectHideFlags: 0
@@ -68149,6 +68286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1642082347}
+  - component: {fileID: 1642082348}
   m_Layer: 0
   m_Name: api2
   m_TagString: Untagged
@@ -68191,6 +68329,19 @@ Transform:
   - {fileID: 817777110}
   m_Father: {fileID: 946959348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1642082348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642082346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0
 --- !u!1 &1652078722
 GameObject:
   m_ObjectHideFlags: 0
@@ -68285,6 +68436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1667423188}
   - component: {fileID: 1667423189}
+  - component: {fileID: 1667423190}
   m_Layer: 0
   m_Name: pisang kebakar
   m_TagString: Untagged
@@ -68374,6 +68526,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1667423190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667423187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: -0.1
 --- !u!1 &1672197152
 GameObject:
   m_ObjectHideFlags: 0
@@ -69174,6 +69339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1742488826}
+  - component: {fileID: 1742488827}
   m_Layer: 0
   m_Name: Api
   m_TagString: Untagged
@@ -69208,6 +69374,19 @@ Transform:
   - {fileID: 159592927}
   m_Father: {fileID: 946959348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1742488827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742488825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0.4
 --- !u!1 &1746597530
 GameObject:
   m_ObjectHideFlags: 0
