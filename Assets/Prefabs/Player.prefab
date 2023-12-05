@@ -177,6 +177,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1996509346939615933}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  radius: 1
   speed: 10
   jump: 10
   audioGame:

@@ -9,8 +9,10 @@ using static UnityEditor.Timeline.TimelinePlaybackControls;
 public class Player : MonoBehaviour
 {
     public static Player instance;
-
+    CapsuleCollider2D capsuleCollider2d;
     public Animator animator;
+    public LayerMask groundLayer;
+    public float radius;
     float hMove;
     Vector2 dir;
 
@@ -20,10 +22,11 @@ public class Player : MonoBehaviour
     AudioSource audioSource;
 
     Rigidbody2D rb;
-    bool isGrounded = false;
+    //bool isGrounded = false;
     bool isFacingRight = true;
     bool isMovementEnabled = true; 
     bool isJumpingEnabled = true;
+    bool jumpInProgress = false;
 
 
     // Start is called before the first frame update
@@ -46,6 +49,14 @@ public class Player : MonoBehaviour
         MovingPlayer();
         //JumpingPlayer();
         FlipCharacter();
+    }
+
+    public bool IsGrounded()
+    {
+        Vector2 startPoint = new Vector2(transform.position.x, transform.position.y-radius);
+        Vector2 endPoint = new Vector2(transform.position.x, transform.position.y - radius-0.1f);
+        Collider2D hit = Physics2D.OverlapCapsule(startPoint, endPoint, CapsuleDirection2D.Vertical, 0, groundLayer);
+        return hit != null;
     }
 
 
@@ -76,15 +87,38 @@ public class Player : MonoBehaviour
         }
         if (isJumpingEnabled)
         {
-            if (Input.GetKeyDown(KeyCode.W) && isGrounded == true)
+            if (Input.GetKeyDown(KeyCode.W) && IsGrounded())
             {
                 rb.velocity = new Vector2(0, 1) * jump;
-                animator.SetBool("IsJumping",true);
                 audioSource.clip = audioGame[0];
                 audioSource.Play();
-                Debug.Log("jump");
+                jumpInProgress = true;
+                return;
             }
         }
+        if(jumpInProgress == true)
+        {
+            animator.SetBool("IsJumping", true);
+        }
+        if (jumpInProgress && rb.velocity.y <0.1f)
+        {
+            animator.SetBool("IsFalling", true);
+            animator.SetBool("IsJumping", false);
+            Debug.Log("IsFalling");
+        }
+        if (jumpInProgress && IsGrounded())
+        {
+            HasLanded();
+            return;
+        }
+        Debug.Log(IsGrounded());
+
+    }
+
+    void HasLanded()
+    {
+        animator.SetBool("IsFalling", false);
+        jumpInProgress = false;
     }
 
     public void SetMovementEnabled(bool isEnabled)
@@ -125,19 +159,19 @@ public class Player : MonoBehaviour
             SceneManager.LoadScene("gameplay");
             // Add your player death logic here
         }
-        else if (other.tag == "Ground")
+        /*else if (other.tag == "Ground")
         {
             // Code for when player touches the ground
             animator.SetBool("IsJumping", false);
             isGrounded = true;
-        }
+        }*/
     }
 
-    private void OnTriggerExit2D(Collider2D player)
+    /*private void OnTriggerExit2D(Collider2D player)
     {
         if (player.tag == "Ground")
         {
             isGrounded = false;
         }
-    }
+    }*/
 }
