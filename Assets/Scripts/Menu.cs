@@ -19,7 +19,7 @@ public class Menu : MonoBehaviour
         PauseMenu.GameIsFinished = false;
         Time.timeScale = 1f;
         PauseMenu.GameIsPaused = false;
-        SceneManager.LoadScene("Gameplay");
+        SceneManager.LoadScene("LevelSelection");
     }
 
     public void OnAboutButton()
