@@ -975,7 +975,7 @@ GameObject:
   - component: {fileID: 48495158}
   - component: {fileID: 48495157}
   - component: {fileID: 48495156}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1192,7 +1192,7 @@ GameObject:
   - component: {fileID: 57411363}
   - component: {fileID: 57411365}
   - component: {fileID: 57411364}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1668,7 +1668,7 @@ GameObject:
   - component: {fileID: 94962047}
   - component: {fileID: 94962046}
   - component: {fileID: 94962045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1966,18 +1966,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1795072948428891382, guid: f079e15b621479a48a6daef924922af9, type: 3}
-      propertyPath: m_SortingLayer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1795072948428891382, guid: f079e15b621479a48a6daef924922af9, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1795072948428891382, guid: f079e15b621479a48a6daef924922af9, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2466947581643999292, guid: f079e15b621479a48a6daef924922af9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2586,7 +2574,7 @@ Transform:
   m_GameObject: {fileID: 261429556}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 183.89, y: 1.91, z: -2.8579977}
+  m_LocalPosition: {x: 169.39, y: 3.01, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2606,6 +2594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 5
 --- !u!61 &261429559
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3435,6 +3424,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 382819906}
+  - component: {fileID: 382819907}
   m_Layer: 0
   m_Name: Kumpulan Api
   m_TagString: Untagged
@@ -3464,6 +3454,19 @@ Transform:
   - {fileID: 1541795942}
   m_Father: {fileID: 543080398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &382819907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382819905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0
 --- !u!1 &384605104
 GameObject:
   m_ObjectHideFlags: 0
@@ -4211,7 +4214,7 @@ Transform:
   m_GameObject: {fileID: 432267254}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.49, y: -4.18, z: -2.8579977}
+  m_LocalPosition: {x: 48.9, y: -4.13, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4231,6 +4234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 5
 --- !u!61 &432267257
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5176,7 +5180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 506642810}
   - component: {fileID: 506642809}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5248,7 +5252,7 @@ Transform:
   m_GameObject: {fileID: 508993745}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 95.11, y: -4.31, z: -2.8579977}
+  m_LocalPosition: {x: 97.73, y: -4.17, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5268,6 +5272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 5
 --- !u!61 &508993748
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34220,7 +34225,7 @@ GameObject:
   - component: {fileID: 639629394}
   - component: {fileID: 639629393}
   - component: {fileID: 639629392}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -35295,7 +35300,7 @@ Transform:
   m_GameObject: {fileID: 804516062}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -341.89, y: -9.68, z: 11.697684}
+  m_LocalPosition: {x: -338.68, y: -9.68, z: 11.697684}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -37115,7 +37120,7 @@ Transform:
   m_GameObject: {fileID: 891753959}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 235.65, y: -4.5, z: -2.8579977}
+  m_LocalPosition: {x: 242.39, y: -4.37, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -37135,6 +37140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 5
 --- !u!61 &891753962
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38188,7 +38194,7 @@ Transform:
   m_GameObject: {fileID: 967657110}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 79.68, y: 0.681, z: -2.8579977}
+  m_LocalPosition: {x: 67.5, y: -0.11, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -38208,6 +38214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 5
 --- !u!61 &967657113
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40140,7 +40147,7 @@ GameObject:
   - component: {fileID: 1186965078}
   - component: {fileID: 1186965077}
   - component: {fileID: 1186965076}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -41403,6 +41410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1302173549}
+  - component: {fileID: 1302173550}
   m_Layer: 0
   m_Name: Bg
   m_TagString: Untagged
@@ -41426,6 +41434,19 @@ Transform:
   - {fileID: 946663968}
   m_Father: {fileID: 543080398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1302173550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302173548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d5bddd0958380438a6d9be0c775105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxCamera: {fileID: 1959695388}
 --- !u!1 &1308218146
 GameObject:
   m_ObjectHideFlags: 0
@@ -41690,7 +41711,7 @@ Transform:
   m_GameObject: {fileID: 1325659294}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.91, y: 1.189, z: -2.8579977}
+  m_LocalPosition: {x: 20.24, y: -3.85, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -41710,6 +41731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 5
 --- !u!61 &1325659297
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41867,7 +41889,7 @@ GameObject:
   - component: {fileID: 1334610021}
   - component: {fileID: 1334610020}
   - component: {fileID: 1334610019}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -42869,6 +42891,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1432445492}
+  - component: {fileID: 1432445493}
   m_Layer: 0
   m_Name: Kumpulan Rumput
   m_TagString: Untagged
@@ -42898,6 +42921,19 @@ Transform:
   - {fileID: 1939544567}
   m_Father: {fileID: 543080398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1432445493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432445491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0
 --- !u!1 &1437015733
 GameObject:
   m_ObjectHideFlags: 0
@@ -43854,6 +43890,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1524363347}
+  - component: {fileID: 1524363348}
   m_Layer: 0
   m_Name: Kayu Belakang
   m_TagString: Untagged
@@ -43885,6 +43922,19 @@ Transform:
   - {fileID: 2077674124}
   m_Father: {fileID: 543080398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1524363348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524363346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0
 --- !u!1 &1526081929
 GameObject:
   m_ObjectHideFlags: 0
@@ -51276,6 +51326,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1623841817}
+  - component: {fileID: 1623841818}
   m_Layer: 0
   m_Name: Kayu Berwarna
   m_TagString: Untagged
@@ -51305,6 +51356,19 @@ Transform:
   - {fileID: 1706173774}
   m_Father: {fileID: 543080398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1623841818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623841816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0
 --- !u!1 &1634917648
 GameObject:
   m_ObjectHideFlags: 0
@@ -51626,6 +51690,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1658605998}
+  - component: {fileID: 1658605999}
   m_Layer: 0
   m_Name: Batu
   m_TagString: Untagged
@@ -51655,6 +51720,19 @@ Transform:
   - {fileID: 900320139}
   m_Father: {fileID: 543080398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1658605999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658605997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0
 --- !u!1 &1660827986
 GameObject:
   m_ObjectHideFlags: 0
@@ -51748,6 +51826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1667388678}
+  - component: {fileID: 1667388679}
   m_Layer: 0
   m_Name: Pohon Pisang
   m_TagString: Untagged
@@ -51777,6 +51856,19 @@ Transform:
   - {fileID: 2056707059}
   m_Father: {fileID: 543080398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1667388679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667388677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0
 --- !u!1 &1671334300
 GameObject:
   m_ObjectHideFlags: 0
@@ -52447,7 +52539,7 @@ Transform:
   m_GameObject: {fileID: 1697807680}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 187.44, y: -4.42, z: -2.8579977}
+  m_LocalPosition: {x: 187.44, y: -4.35, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -52467,6 +52559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 5
 --- !u!61 &1697807683
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53518,7 +53611,7 @@ Transform:
   m_GameObject: {fileID: 1756873772}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 135.12, y: 0.7, z: -2.8579977}
+  m_LocalPosition: {x: 147.41, y: -4.67, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -53538,6 +53631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 5
 --- !u!61 &1756873775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54485,7 +54579,7 @@ Transform:
   m_GameObject: {fileID: 1814251141}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 188.31, y: 1.99, z: -2.8579977}
+  m_LocalPosition: {x: 198.41, y: -0.03, z: -2.8579977}
   m_LocalScale: {x: 0.049245004, y: 0.049245004, z: 0.049245004}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -54505,6 +54599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 5
 --- !u!61 &1814251144
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -71895,7 +71990,7 @@ GameObject:
   - component: {fileID: 1949973894}
   - component: {fileID: 1949973893}
   - component: {fileID: 1949973892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -72234,6 +72329,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 110877150}
+    - target: {fileID: 6639052195820518413, guid: ca0f4429b602ccc4fbf3aa24c490a206, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8484573721157246474, guid: ca0f4429b602ccc4fbf3aa24c490a206, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -72243,6 +72342,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca0f4429b602ccc4fbf3aa24c490a206, type: 3}
+--- !u!114 &1959695388 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3063375037396473563, guid: ca0f4429b602ccc4fbf3aa24c490a206, type: 3}
+  m_PrefabInstance: {fileID: 1959695387}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281f9213f1312334eb8d45c62cfd8ad7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1977616779
 GameObject:
   m_ObjectHideFlags: 0
@@ -72596,7 +72706,7 @@ Transform:
   m_GameObject: {fileID: 1992638050}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.400002, y: -7.2, z: 700}
+  m_LocalPosition: {x: 11.29, y: -7, z: 700}
   m_LocalScale: {x: 0.1299, y: 0.1299, z: 0.1299}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -73585,7 +73695,7 @@ GameObject:
   - component: {fileID: 2089491054}
   - component: {fileID: 2089491053}
   - component: {fileID: 2089491052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -74011,6 +74121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2125696203}
+  - component: {fileID: 2125696204}
   m_Layer: 0
   m_Name: Kayu Depan
   m_TagString: Untagged
@@ -74043,6 +74154,19 @@ Transform:
   - {fileID: 1488011041}
   m_Father: {fileID: 543080398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2125696204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125696202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c57422f4823f49af62d5a55e93680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0
 --- !u!1 &2141008741
 GameObject:
   m_ObjectHideFlags: 0

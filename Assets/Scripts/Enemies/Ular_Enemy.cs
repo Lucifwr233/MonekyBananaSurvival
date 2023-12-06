@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Ular_Enemy : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] private float damage;
+    [SerializeField] private float moveDistance = 5f; // Jarak total yang akan ditempuh ular
+    private Vector3 initialPosition;
+    private float direction = 1; // 1 untuk gerakan ke kanan, -1 untuk gerakan ke kiri
+    private SpriteRenderer spriteRenderer;
 
     private bool isMoving = false;
     private Camera mainCamera;
@@ -15,6 +18,8 @@ public class Ular_Enemy : MonoBehaviour
     void Start()
     {
         mainCamera = Camera.main;
+        initialPosition = transform.position;
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
         // Start moving when the enemy is within camera view
         StartCoroutine(ActivateEnemy());
@@ -25,10 +30,41 @@ public class Ular_Enemy : MonoBehaviour
     {
         if (isMoving)
         {
-            // Move horizontally using Mathf.PingPong for automatic back-and-forth movement
-            float movement = Mathf.PingPong(Time.time * moveSpeed, 5) - 4f; // PingPong between -1 and 1
-            transform.Translate(Vector2.right * movement * Time.deltaTime);
+            MoveEnemy();
         }
+    }
+
+    private void MoveEnemy()
+    {
+        // Hitung perpindahan ular
+        float displacement = moveSpeed * Time.deltaTime * direction;
+
+        // Pindahkan ular
+        transform.Translate(new Vector3(displacement, 0, 0));
+
+        // Flip sprite secara horizontal sesuai arah pergerakan
+        if (displacement > 0 && !spriteRenderer.flipX)
+        {
+            FlipSprite(true);
+        }
+        else if (displacement < 0 && spriteRenderer.flipX)
+        {
+            FlipSprite(false);
+        }
+
+        // Periksa apakah ular telah mencapai batas jarak, dan jika ya, ubah arah
+        if (Mathf.Abs(transform.position.x - initialPosition.x) >= moveDistance / 2)
+        {
+            // Ubah arah pergerakan
+            direction *= -1;
+        }
+        Debug.Log(displacement);
+    }
+
+    private void FlipSprite(bool facingRight)
+    {
+        // Sesuaikan nilai flip X pada SpriteRenderer
+        spriteRenderer.flipX = !facingRight;
     }
 
     IEnumerator ActivateEnemy()
@@ -40,21 +76,7 @@ public class Ular_Enemy : MonoBehaviour
         isMoving = true;
     }
 
-    /*private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player" && collision.contacts[0].normal.y > 0.5)
-        {
-            // Player is touching the top of the enemy, destroy the enemy
-            Player player = collision.gameObject.GetComponent<Player>();
 
-            // Check if the player is touching the enemy's head (feet of the player touching head of the enemy)
-            if (player.transform.position.y > transform.position.y)
-            {
-                // Player's feet are above the enemy's head, destroy the enemy
-                Destroy(gameObject);
-            }
-        }
-    }*/
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -75,10 +97,6 @@ public class Ular_Enemy : MonoBehaviour
             }
         }
     }
-
-
-
-
 
     private bool IsVisibleFromCamera()
     {

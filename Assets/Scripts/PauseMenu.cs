@@ -113,7 +113,7 @@ public class PauseMenu : MonoBehaviour
         GameIsOver = false;
         GameIsFinished = false;
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Gameplay");
+        SceneManager.LoadScene("LevelSelection");
     }
 
     public void NextLevel()

@@ -28210,7 +28210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 60439410}
   - component: {fileID: 60439411}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28414,7 +28414,7 @@ GameObject:
   - component: {fileID: 92156752}
   - component: {fileID: 92156751}
   - component: {fileID: 92156750}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -44822,7 +44822,7 @@ GameObject:
   - component: {fileID: 128929444}
   - component: {fileID: 128929443}
   - component: {fileID: 128929445}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -45285,7 +45285,7 @@ GameObject:
   - component: {fileID: 157932665}
   - component: {fileID: 157932664}
   - component: {fileID: 157932663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short move (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -45333,7 +45333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &157932665
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45901,6 +45901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 6
 --- !u!61 &191647961
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46939,7 +46940,7 @@ GameObject:
   - component: {fileID: 278479244}
   - component: {fileID: 278479243}
   - component: {fileID: 278479242}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -46973,7 +46974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &278479243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47276,6 +47277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 6
 --- !u!61 &282759720
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47875,7 +47877,7 @@ GameObject:
   - component: {fileID: 299183379}
   - component: {fileID: 299183378}
   - component: {fileID: 299183377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -48424,7 +48426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 392551342}
   - component: {fileID: 392551343}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48647,7 +48649,7 @@ GameObject:
   - component: {fileID: 412168704}
   - component: {fileID: 412168703}
   - component: {fileID: 412168702}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short move (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -48695,7 +48697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &412168704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49722,7 +49724,7 @@ GameObject:
   - component: {fileID: 514862050}
   - component: {fileID: 514862049}
   - component: {fileID: 514862048}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short disspr (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -49769,7 +49771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &514862050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51225,7 +51227,7 @@ GameObject:
   - component: {fileID: 639995006}
   - component: {fileID: 639995005}
   - component: {fileID: 639995004}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short move (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -51273,7 +51275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &639995006
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51421,6 +51423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 6
 --- !u!61 &642410370
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51807,7 +51810,7 @@ GameObject:
   - component: {fileID: 649445462}
   - component: {fileID: 649445461}
   - component: {fileID: 649445460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short move (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -51855,7 +51858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &649445462
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58926,7 +58929,7 @@ GameObject:
   - component: {fileID: 683326032}
   - component: {fileID: 683326031}
   - component: {fileID: 683326030}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -59427,6 +59430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 6
 --- !u!61 &744859209
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60212,7 +60216,7 @@ GameObject:
   - component: {fileID: 857169634}
   - component: {fileID: 857169633}
   - component: {fileID: 857169632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short disspr (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -60259,7 +60263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &857169634
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61014,7 +61018,7 @@ GameObject:
   - component: {fileID: 912874322}
   - component: {fileID: 912874321}
   - component: {fileID: 912874320}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short disspr (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -61061,7 +61065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &912874322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61723,6 +61727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 6
 --- !u!61 &979849500
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62227,7 +62232,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1018675485}
-  m_Layer: 0
+  - component: {fileID: 1018675486}
+  m_Layer: 6
   m_Name: Upper Ground Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62265,6 +62271,19 @@ Transform:
   - {fileID: 1407210241}
   m_Father: {fileID: 60439410}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1018675486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018675484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Players: {fileID: 0}
 --- !u!1 &1040228552
 GameObject:
   m_ObjectHideFlags: 0
@@ -62585,6 +62604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 6
 --- !u!61 &1102492379
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -63213,7 +63233,7 @@ GameObject:
   - component: {fileID: 1172275569}
   - component: {fileID: 1172275572}
   - component: {fileID: 1172275573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short move
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -63344,7 +63364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!114 &1172275573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63774,6 +63794,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2079481756849702147, guid: f079e15b621479a48a6daef924922af9, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 2466947581643999292, guid: f079e15b621479a48a6daef924922af9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -63826,6 +63850,11 @@ PrefabInstance:
 --- !u!4 &1229201957 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6703181848098048896, guid: f079e15b621479a48a6daef924922af9, type: 3}
+  m_PrefabInstance: {fileID: 1229201956}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1229201958 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2466947581643999292, guid: f079e15b621479a48a6daef924922af9, type: 3}
   m_PrefabInstance: {fileID: 1229201956}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1249190149
@@ -63886,7 +63915,7 @@ Transform:
   m_GameObject: {fileID: 1250949257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13, y: -9.68, z: 11.697684}
+  m_LocalPosition: {x: -18.6, y: -9.68, z: 11.697684}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -65527,7 +65556,7 @@ GameObject:
   - component: {fileID: 1402196898}
   - component: {fileID: 1402196897}
   - component: {fileID: 1402196899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -65671,7 +65700,7 @@ GameObject:
   - component: {fileID: 1407210244}
   - component: {fileID: 1407210243}
   - component: {fileID: 1407210242}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -65705,7 +65734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &1407210243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -66139,7 +66168,7 @@ GameObject:
   - component: {fileID: 1447104850}
   - component: {fileID: 1447104849}
   - component: {fileID: 1447104848}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -66584,7 +66613,7 @@ GameObject:
   - component: {fileID: 1476142519}
   - component: {fileID: 1476142518}
   - component: {fileID: 1476142517}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -66812,7 +66841,7 @@ GameObject:
   - component: {fileID: 1533778384}
   - component: {fileID: 1533778383}
   - component: {fileID: 1533778382}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -66957,7 +66986,7 @@ GameObject:
   - component: {fileID: 1550752111}
   - component: {fileID: 1550752110}
   - component: {fileID: 1550752113}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short disspr
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -66991,7 +67020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &1550752111
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -67454,6 +67483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 6
 --- !u!1 &1560415024
 GameObject:
   m_ObjectHideFlags: 0
@@ -67906,7 +67936,7 @@ GameObject:
   - component: {fileID: 1617676660}
   - component: {fileID: 1617676659}
   - component: {fileID: 1617676658}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -67940,7 +67970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &1617676659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68551,7 +68581,7 @@ GameObject:
   - component: {fileID: 1672197156}
   - component: {fileID: 1672197155}
   - component: {fileID: 1672197154}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -68585,7 +68615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &1672197155
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68838,7 +68868,7 @@ GameObject:
   - component: {fileID: 1686758536}
   - component: {fileID: 1686758535}
   - component: {fileID: 1686758534}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -68872,7 +68902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &1686758535
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -69794,7 +69824,7 @@ GameObject:
   - component: {fileID: 1775814512}
   - component: {fileID: 1775814511}
   - component: {fileID: 1775814510}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -69828,7 +69858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &1775814511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -70347,7 +70377,7 @@ GameObject:
   - component: {fileID: 1837952691}
   - component: {fileID: 1837952690}
   - component: {fileID: 1837952689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -70381,7 +70411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ab45f99da771f4fae9e96033eca4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players: {fileID: 0}
+  Players: {fileID: 1229201958}
 --- !u!61 &1837952690
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -73375,6 +73405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 6
 --- !u!61 &2129178462
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -73822,6 +73853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   damage: 1
+  moveDistance: 6
 --- !u!61 &2142768526
 BoxCollider2D:
   m_ObjectHideFlags: 0
