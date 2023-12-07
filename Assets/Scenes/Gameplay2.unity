@@ -54454,6 +54454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5153446685175571832, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
+      propertyPath: m_text
+      value: Stage 2 Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 5959836789724401122, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -54534,9 +54538,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6079592396143715581, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6447506502512710054, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
       propertyPath: playerHealth
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9110988996517508388, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
