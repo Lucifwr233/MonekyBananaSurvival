@@ -43,13 +43,13 @@ public class Ular_Enemy : MonoBehaviour
         transform.Translate(new Vector3(displacement, 0, 0));
 
         // Flip sprite secara horizontal sesuai arah pergerakan
-        if (displacement > 0 && !spriteRenderer.flipX)
+        if (displacement > 0)
         {
-            FlipSprite(true);
+            FlipSprite(true); // Flip to the right
         }
-        else if (displacement < 0 && spriteRenderer.flipX)
+        else if (displacement < 0)
         {
-            FlipSprite(false);
+            FlipSprite(false); // Flip to the left
         }
 
         // Periksa apakah ular telah mencapai batas jarak, dan jika ya, ubah arah
@@ -62,9 +62,8 @@ public class Ular_Enemy : MonoBehaviour
     }
 
     private void FlipSprite(bool facingRight)
-    {
-        // Sesuaikan nilai flip X pada SpriteRenderer
-        spriteRenderer.flipX = !facingRight;
+    { 
+        spriteRenderer.flipX = facingRight;
     }
 
     IEnumerator ActivateEnemy()

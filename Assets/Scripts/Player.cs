@@ -156,7 +156,7 @@ public class Player : MonoBehaviour
         if (other.tag == "Ular") // Assuming "Ular" is the tag of your snake/enemy
         {
             // Player is touching the enemy, do whatever you want (e.g., player dies)
-            SceneManager.LoadScene("gameplay");
+            SceneManager.LoadScene("LevelSelection");
             // Add your player death logic here
         }
         /*else if (other.tag == "Ground")
