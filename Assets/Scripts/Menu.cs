@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
     [SerializeField] AudioClip[] audioGame;
+
+    public GameObject MainMenuUI;
     public GameObject AboutUI;
     AudioSource audioSource;
 
@@ -22,14 +24,17 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("LevelSelection");
     }
 
-    public void OnAboutButton()
+    public void OnSettingButton()
     {
+        MainMenuUI.SetActive(false);
         AboutUI.SetActive(true);
+
     }
 
 
     public void BacktoMenu()
     {
+        MainMenuUI.SetActive(true);
         AboutUI.SetActive(false);
     }
 
