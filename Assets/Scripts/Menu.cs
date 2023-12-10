@@ -38,6 +38,11 @@ public class Menu : MonoBehaviour
         AboutUI.SetActive(false);
     }
 
+    public void DeleteSaveGame()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+
     public void OnQuitButton()
     {
         Application.Quit();
