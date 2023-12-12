@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     //bool isGrounded = false;
     bool isFacingRight = true;
-    bool isMovementEnabled = true; 
+    bool isMovementEnabled = true;
     bool isJumpingEnabled = true;
     bool jumpInProgress = false;
 
@@ -53,8 +53,9 @@ public class Player : MonoBehaviour
 
     public bool IsGrounded()
     {
-        Vector2 startPoint = new Vector2(transform.position.x, transform.position.y-radius);
-        Vector2 endPoint = new Vector2(transform.position.x, transform.position.y - radius-0.1f);
+        Vector2 startPoint = new Vector2(transform.position.x, transform.position.y - radius);
+        Vector2 endPoint = new Vector2(transform.position.x, transform.position.y - radius - 0.1f);
+        Debug.DrawRay(startPoint, endPoint - startPoint, Color.red);
         Collider2D hit = Physics2D.OverlapCapsule(startPoint, endPoint, CapsuleDirection2D.Vertical, 0, groundLayer);
         return hit != null;
     }
@@ -75,7 +76,7 @@ public class Player : MonoBehaviour
     public void MovingPlayer()
     {
         if (isMovementEnabled)
-        { 
+        {
             hMove = Input.GetAxis("Horizontal");
             dir = new Vector2(hMove, 0);
 
@@ -96,11 +97,11 @@ public class Player : MonoBehaviour
                 return;
             }
         }
-        if(jumpInProgress == true)
+        if (jumpInProgress == true)
         {
             animator.SetBool("IsJumping", true);
         }
-        if (jumpInProgress && rb.velocity.y <0.1f)
+        if (jumpInProgress && rb.velocity.y < 0.1f)
         {
             animator.SetBool("IsFalling", true);
             animator.SetBool("IsJumping", false);
@@ -127,16 +128,16 @@ public class Player : MonoBehaviour
         isJumpingEnabled = isEnabled;
     }
 
-   /* void JumpingPlayer()
-    {
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded == true)
-        {
-            rb.velocity = new Vector2(0, 1) * jump;
-            animator.SetBool("IsJumping", true);
-            audioSource.clip = audioGame[0];
-            audioSource.Play();
-        }
-    }*/
+    /* void JumpingPlayer()
+     {
+         if (Input.GetKeyDown(KeyCode.W) && isGrounded == true)
+         {
+             rb.velocity = new Vector2(0, 1) * jump;
+             animator.SetBool("IsJumping", true);
+             audioSource.clip = audioGame[0];
+             audioSource.Play();
+         }
+     }*/
 
     void FlipCharacter()
     {
