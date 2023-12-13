@@ -55,7 +55,6 @@ public class Player : MonoBehaviour
     {
         Vector2 startPoint = new Vector2(transform.position.x, transform.position.y - radius);
         Vector2 endPoint = new Vector2(transform.position.x, transform.position.y - radius - 0.1f);
-        Debug.DrawRay(startPoint, endPoint - startPoint, Color.red);
         Collider2D hit = Physics2D.OverlapCapsule(startPoint, endPoint, CapsuleDirection2D.Vertical, 0, groundLayer);
         return hit != null;
     }
