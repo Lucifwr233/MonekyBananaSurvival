@@ -34,8 +34,17 @@ public class LevelSelector : MonoBehaviour
 
     public void OpenLevel(int levelId)
     {
-        string levelName = "Gameplay" + levelId;
-        SceneManager.LoadScene(levelName);
+        if (levelId == 1)
+        {
+            // If the selected level is 1, go to prolog
+            SceneManager.LoadScene("Prologue");
+        }
+        else
+        {
+            // If the selected level is greater than 1, go to gameplay
+            string levelName = "Gameplay" + levelId;
+            SceneManager.LoadScene(levelName);
+        }
     }
 
     public void BacktoMenu()

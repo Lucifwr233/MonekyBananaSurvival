@@ -12113,7 +12113,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioGame:
-  - {fileID: 8300000, guid: de1945b6e693c464ca22565af47171c6, type: 3}
+  - {fileID: 8300000, guid: 3e6a428a3efdbb14bae8a58a6f966eb1, type: 3}
+  - {fileID: 8300000, guid: 72ce0bf2b9844ce4d96afd8e8500778d, type: 3}
 --- !u!1 &959754732
 GameObject:
   m_ObjectHideFlags: 0

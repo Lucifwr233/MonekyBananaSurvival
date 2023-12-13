@@ -7,6 +7,6 @@ public class PrologToGameplay : MonoBehaviour
 {
     void OnEnable()
     {
-        SceneManager.LoadScene("Gameplay");
+        SceneManager.LoadScene("Gameplay1");
     }
 }

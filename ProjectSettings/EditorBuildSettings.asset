@@ -8,15 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 679762bcd0039d64bb0a56bdc481d231
-  - enabled: 0
-    path: Assets/Scenes/Prologue.unity
-    guid: 7f01b29e4f6a30a468be7af0b2a8012e
   - enabled: 1
     path: Assets/Scenes/About.unity
     guid: 9233be61f7da52d489eac61c46e9da15
   - enabled: 1
     path: Assets/Scenes/LevelSelection.unity
     guid: 242baad767de7734f8ab93fe5c0f91e0
+  - enabled: 1
+    path: Assets/Scenes/Prologue.unity
+    guid: 7f01b29e4f6a30a468be7af0b2a8012e
   - enabled: 1
     path: Assets/Scenes/Gameplay1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
