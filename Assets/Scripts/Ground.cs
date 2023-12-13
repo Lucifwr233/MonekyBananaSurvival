@@ -25,10 +25,5 @@ public class Ground : MonoBehaviour
         {
             col.enabled = true;
         }
-
-        if (Input.GetAxis("Vertical") < 0)
-        {
-            col.enabled = false;
-        }
     }
 }
