@@ -561,7 +561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioGame:
-  - {fileID: 8300000, guid: 2d2be9ad9f9294fda8292aefe64d92ee, type: 3}
+  - {fileID: 8300000, guid: 72ce0bf2b9844ce4d96afd8e8500778d, type: 3}
   buttons:
   - {fileID: 1349971535}
   - {fileID: 733986000}

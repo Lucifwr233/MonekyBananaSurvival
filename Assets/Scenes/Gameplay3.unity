@@ -3535,7 +3535,7 @@ GameObject:
   - component: {fileID: 238392168}
   - component: {fileID: 238392167}
   - component: {fileID: 238392166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3941,7 +3941,7 @@ GameObject:
   - component: {fileID: 284544939}
   - component: {fileID: 284544938}
   - component: {fileID: 284544937}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short move (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5905,7 +5905,7 @@ GameObject:
   - component: {fileID: 416197769}
   - component: {fileID: 416197768}
   - component: {fileID: 416197767}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short disspr
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6475,7 +6475,7 @@ GameObject:
   - component: {fileID: 490180207}
   - component: {fileID: 490180206}
   - component: {fileID: 490180205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short move
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7287,7 +7287,7 @@ GameObject:
   - component: {fileID: 534525304}
   - component: {fileID: 534525303}
   - component: {fileID: 534525302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7516,7 +7516,7 @@ GameObject:
   - component: {fileID: 566008365}
   - component: {fileID: 566008364}
   - component: {fileID: 566008363}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short move (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8658,6 +8658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentCheckpoint: 0
+  chekpoints: []
 --- !u!4 &680560928
 Transform:
   m_ObjectHideFlags: 0
@@ -14615,7 +14616,7 @@ GameObject:
   - component: {fileID: 1060481367}
   - component: {fileID: 1060481366}
   - component: {fileID: 1060481365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -15583,7 +15584,7 @@ GameObject:
   - component: {fileID: 1118436578}
   - component: {fileID: 1118436577}
   - component: {fileID: 1118436576}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short move (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -16997,7 +16998,7 @@ GameObject:
   - component: {fileID: 1266240930}
   - component: {fileID: 1266240929}
   - component: {fileID: 1266240928}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -19281,7 +19282,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1486823991}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20521,7 +20522,7 @@ GameObject:
   - component: {fileID: 1563940910}
   - component: {fileID: 1563940909}
   - component: {fileID: 1563940908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short disspr (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -23186,7 +23187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1716149405}
   - component: {fileID: 1716149404}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23234,7 +23235,7 @@ GameObject:
   - component: {fileID: 1724334784}
   - component: {fileID: 1724334783}
   - component: {fileID: 1724334782}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short disspr (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -23727,7 +23728,7 @@ GameObject:
   - component: {fileID: 1769294122}
   - component: {fileID: 1769294121}
   - component: {fileID: 1769294120}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -27115,7 +27116,7 @@ GameObject:
   - component: {fileID: 2073561710}
   - component: {fileID: 2073561709}
   - component: {fileID: 2073561708}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -27753,7 +27754,7 @@ GameObject:
   - component: {fileID: 2100489732}
   - component: {fileID: 2100489731}
   - component: {fileID: 2100489730}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground short move (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -28163,7 +28164,7 @@ GameObject:
   - component: {fileID: 2137221233}
   - component: {fileID: 2137221232}
   - component: {fileID: 2137221231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Upper Ground flat (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}

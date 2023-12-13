@@ -2425,7 +2425,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2520,7 +2520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioGame:
-  - {fileID: 8300000, guid: 2d2be9ad9f9294fda8292aefe64d92ee, type: 3}
+  - {fileID: 8300000, guid: 72ce0bf2b9844ce4d96afd8e8500778d, type: 3}
   MainMenuUI: {fileID: 104731199}
   AboutUI: {fileID: 1434247546}
 --- !u!320 &1720027458

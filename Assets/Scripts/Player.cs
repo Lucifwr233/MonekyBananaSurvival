@@ -53,10 +53,21 @@ public class Player : MonoBehaviour
 
     public bool IsGrounded()
     {
-        Vector2 startPoint = new Vector2(transform.position.x, transform.position.y - radius);
-        Vector2 endPoint = new Vector2(transform.position.x, transform.position.y - radius - 0.1f);
-        Collider2D hit = Physics2D.OverlapCapsule(startPoint, endPoint, CapsuleDirection2D.Vertical, 0, groundLayer);
-        return hit != null;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, radius, groundLayer);
+        if (hit.collider != null)
+        {
+
+            Debug.DrawRay(transform.position, Vector2.down * radius, Color.green);
+            Debug.Log("Ground detected!");
+            return true;
+
+        }
+        else
+        {
+            Debug.DrawRay(transform.position, Vector2.down * radius, Color.red);
+            return false;
+        }
+        
     }
 
 
@@ -118,6 +129,7 @@ public class Player : MonoBehaviour
     void HasLanded()
     {
         animator.SetBool("IsFalling", false);
+        animator.SetBool("IsJumping", false);
         jumpInProgress = false;
     }
 

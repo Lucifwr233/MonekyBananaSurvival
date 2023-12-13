@@ -12113,8 +12113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioGame:
-  - {fileID: 8300000, guid: 3e6a428a3efdbb14bae8a58a6f966eb1, type: 3}
-  - {fileID: 8300000, guid: 72ce0bf2b9844ce4d96afd8e8500778d, type: 3}
+  - {fileID: 8300000, guid: 1c65297d23982c8458ba0f43912c91b7, type: 3}
 --- !u!1 &959754732
 GameObject:
   m_ObjectHideFlags: 0
@@ -14660,6 +14659,10 @@ PrefabInstance:
       value: -0.0029077022
       objectReference: {fileID: 0}
     - target: {fileID: 2079481756849702147, guid: f079e15b621479a48a6daef924922af9, type: 3}
+      propertyPath: radius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2079481756849702147, guid: f079e15b621479a48a6daef924922af9, type: 3}
       propertyPath: groundLayer.m_Bits
       value: 64
       objectReference: {fileID: 0}
@@ -14669,11 +14672,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6703181848098048896, guid: f079e15b621479a48a6daef924922af9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.59
+      value: 34.5
       objectReference: {fileID: 0}
     - target: {fileID: 6703181848098048896, guid: f079e15b621479a48a6daef924922af9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.38
+      value: 3.9
       objectReference: {fileID: 0}
     - target: {fileID: 6703181848098048896, guid: f079e15b621479a48a6daef924922af9, type: 3}
       propertyPath: m_LocalPosition.z
