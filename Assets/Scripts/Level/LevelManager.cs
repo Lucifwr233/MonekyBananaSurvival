@@ -24,7 +24,7 @@ public class LevelManager : MonoBehaviour
     {
         if (currentLevel == 1) 
         { 
-            if(totalCoin >= coinNeeded[0])
+            if(totalCoin >= coinNeeded[10])
             {
                 goNextLevel = true;
             }
@@ -35,7 +35,7 @@ public class LevelManager : MonoBehaviour
         }
                 if (currentLevel ==2)
                 {
-                    if (totalCoin >= coinNeeded[1])
+                    if (totalCoin >= coinNeeded[15])
                     {
                         goNextLevel = true;
                     }
@@ -46,7 +46,7 @@ public class LevelManager : MonoBehaviour
                 }
                     if (currentLevel == 3)
                     {
-                        if (totalCoin >= coinNeeded[2])
+                        if (totalCoin >= coinNeeded[20])
                         {
                             goNextLevel = true;
                         }
