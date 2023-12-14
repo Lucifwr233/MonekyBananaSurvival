@@ -142,7 +142,7 @@ public class PauseMenu : MonoBehaviour
     public void finish()
     {
         Time.timeScale = 0f;
-        InGameUI.SetActive(true);
+        InGameUI.SetActive(false);
         FinishUI.SetActive(true);
         GameIsFinished = true;
         EnviromentMusic environmentMusic = FindObjectOfType<EnviromentMusic>();
