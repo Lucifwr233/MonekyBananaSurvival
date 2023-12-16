@@ -8,6 +8,7 @@ public class Menu : MonoBehaviour
 
     public GameObject MainMenuUI;
     public GameObject AboutUI;
+    public GameObject QuitUI;
     AudioSource audioSource;
 
     void Start()
@@ -45,6 +46,17 @@ public class Menu : MonoBehaviour
 
     public void OnQuitButton()
     {
+        QuitUI.SetActive(true);
+    }
+
+    public void BatalKeluar()
+    {
+        QuitUI.SetActive(false);
+    }
+
+    public void JadiKeluar()
+    {
         Application.Quit();
     }
+
 }
