@@ -1,9 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -102,6 +98,7 @@ public class PauseMenu : MonoBehaviour
     public void LoadMenu()
     {
         GameIsPaused = false;
+        GameOver.SetActive(false);
         Time.timeScale = 1f;
         SceneManager.LoadScene("Menu");
     }
@@ -120,6 +117,7 @@ public class PauseMenu : MonoBehaviour
     {
         //loadscene next level 
         FinishUI.SetActive(false);
+        GameOver.SetActive(false);
         LevelManager.instance.FinisedLevel();
     }
 
@@ -129,7 +127,6 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         InGameUI.SetActive(false);
         GameOver.SetActive(true);
-        GameIsOver = true;
         EnviromentMusic environmentMusic = FindObjectOfType<EnviromentMusic>();
         if (environmentMusic != null)
         {
@@ -142,6 +139,7 @@ public class PauseMenu : MonoBehaviour
     public void finish()
     {
         Time.timeScale = 0f;
+        GameOver.SetActive(false);
         InGameUI.SetActive(false);
         FinishUI.SetActive(true);
         GameIsFinished = true;
@@ -152,10 +150,17 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
+    public void finishToEpilog()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Epilog");
+    }
+
     private void OnEnable()
     {
         Time.timeScale = 1f;
         GameIsPaused = false;
         GameIsFinished = false;
+        GameIsOver = false;
     }
 }

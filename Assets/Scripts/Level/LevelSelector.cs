@@ -14,6 +14,7 @@ public class LevelSelector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        PauseMenu.GameIsOver = false;
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = audioGame[0];
         audioSource.Play();

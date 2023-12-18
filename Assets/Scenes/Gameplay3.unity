@@ -28316,6 +28316,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 587079363924354230, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
+      propertyPath: m_text
+      value: 'Target Score : 20
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 3796839565391784628, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
       propertyPath: m_text
       value: 'Target Score : 20
@@ -28409,6 +28415,10 @@ PrefabInstance:
     - target: {fileID: 6079592396143715581, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174703150282878873, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: finishToEpilog
       objectReference: {fileID: 0}
     - target: {fileID: 6447506502512710054, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
       propertyPath: playerHealth

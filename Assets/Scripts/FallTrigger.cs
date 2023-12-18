@@ -22,7 +22,8 @@ public class FallTrigger : MonoBehaviour
         if (other.tag == "Player")
         {
             LevelManager.instance.ResetCoin();
-            SceneManager.LoadScene("LevelSelection");
+            PauseMenu.GameIsOver = true;
+            //SceneManager.LoadScene("LevelSelection");
         }
     }
 }
