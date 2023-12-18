@@ -152,6 +152,7 @@ public class PauseMenu : MonoBehaviour
 
     public void finishToEpilog()
     {
+        GameIsFinished = false;
         Time.timeScale = 1f;
         SceneManager.LoadScene("Epilog");
     }
