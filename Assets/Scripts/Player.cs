@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     [SerializeField] float speed = 10;
     [SerializeField] float jump = 9f;
     [SerializeField] AudioClip[] audioGame;
+    [SerializeField] public AudioSource walksfx;
     AudioSource audioSource;
 
     Rigidbody2D rb;
@@ -62,7 +63,6 @@ public class Player : MonoBehaviour
             Debug.DrawRay(transform.position, Vector2.down * radius, Color.red);
             return false;
         }
-        
     }
 
 
@@ -90,6 +90,15 @@ public class Player : MonoBehaviour
 
             // Update the animator's Speed parameter
             animator.SetFloat("Speed", Mathf.Abs(hMove));
+            // Play walksfx only when the player has non-zero horizontal movement
+            if (hMove != 0)
+            {
+                walksfx.Play();
+            }
+            else
+            {
+                walksfx.Stop(); // Stop the sound effect if there is no movement
+            }
         }
         if (isJumpingEnabled)
         {
@@ -162,9 +171,7 @@ public class Player : MonoBehaviour
     {
         if (other.tag == "Ular") // Assuming "Ular" is the tag of your snake/enemy
         {
-            // Player is touching the enemy, do whatever you want (e.g., player dies)
-            SceneManager.LoadScene("LevelSelection");
-            // Add your player death logic here
+            
         }
         /*else if (other.tag == "Ground")
         {
