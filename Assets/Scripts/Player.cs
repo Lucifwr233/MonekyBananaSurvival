@@ -90,14 +90,14 @@ public class Player : MonoBehaviour
 
             // Update the animator's Speed parameter
             animator.SetFloat("Speed", Mathf.Abs(hMove));
-            // Play walksfx only when the player has non-zero horizontal movement
-            if (hMove != 0)
+            // Play walksfx only when the player is moving horizontally
+            if (Mathf.Abs(hMove) > 0.1f)
             {
                 walksfx.Play();
             }
             else
             {
-                walksfx.Stop(); // Stop the sound effect if there is no movement
+                walksfx.Stop(); // Stop the sound effect if not moving
             }
         }
         if (isJumpingEnabled)
