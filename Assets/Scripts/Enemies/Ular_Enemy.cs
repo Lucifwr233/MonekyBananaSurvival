@@ -58,7 +58,6 @@ public class Ular_Enemy : MonoBehaviour
             // Ubah arah pergerakan
             direction *= -1;
         }
-        Debug.Log(displacement);
     }
 
     private void FlipSprite(bool facingRight)

@@ -1861,10 +1861,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 34.3
+    m_Start: 26.366666666666667
     m_ClipIn: 0
     m_Asset: {fileID: -2887224507602295761}
-    m_Duration: 12.483333333333
+    m_Duration: 4.25
     m_TimeScale: 1
     m_ParentTrack: {fileID: -1604912293743982700}
     m_EaseInDuration: 0

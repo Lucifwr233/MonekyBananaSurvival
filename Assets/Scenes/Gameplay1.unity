@@ -2926,6 +2926,18 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7091535223427795789, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091535223427795789, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
+      propertyPath: m_fontSize
+      value: 53.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978408125968998650, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8442179736062521401, guid: 7ad26b1de5c68ee48a19d66891da2e36, type: 3}
       propertyPath: m_text
       value: 
