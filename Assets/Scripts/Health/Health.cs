@@ -5,6 +5,8 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] private float startingHealth;
+    [SerializeField] public AudioSource LoseEsfx;
+
     public float currentHealth { get; private set; }
 
     private void Awake()
@@ -23,6 +25,7 @@ public class Health : MonoBehaviour
         else
         {
             //player die
+            LoseEsfx.Play();
             GetComponent<Player>().SetMovementEnabled(false);
             PauseMenu.GameIsOver = true;
         }
