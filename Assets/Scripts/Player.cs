@@ -13,9 +13,9 @@ public class Player : MonoBehaviour
 
     [SerializeField] float speed = 10;
     [SerializeField] float jump = 9f;
-    [SerializeField] AudioClip[] audioGame;
     [SerializeField] public AudioSource walksfx;
-    AudioSource audioSource;
+    [SerializeField] public AudioSource coinsfx;
+    [SerializeField] public AudioSource jumpsfx;
 
     Rigidbody2D rb;
     //bool isGrounded = false;
@@ -30,7 +30,6 @@ public class Player : MonoBehaviour
     {
         //rigidbody
         rb = GetComponent<Rigidbody2D>();
-        audioSource = GetComponent<AudioSource>();
     }
 
     private void Awake()
@@ -68,14 +67,12 @@ public class Player : MonoBehaviour
 
     public void CoinColl()
     {
-        audioSource.clip = audioGame[2];
-        audioSource.Play();
+        coinsfx.Play();
     }
 
     public void EnemyColl()
     {
-        audioSource.clip = audioGame[1];
-        audioSource.Play();
+
     }
 
     public void MovingPlayer()
@@ -91,13 +88,16 @@ public class Player : MonoBehaviour
             // Update the animator's Speed parameter
             animator.SetFloat("Speed", Mathf.Abs(hMove));
             // Play walksfx only when the player is moving horizontally
-            if (Mathf.Abs(hMove) > 0.1f)
+            if (hMove != 0)
             {
-                walksfx.Play();
+                if(!walksfx.isPlaying) 
+                { 
+                    walksfx.Play();
+                }    
             }
             else
             {
-                walksfx.Stop(); // Stop the sound effect if not moving
+                walksfx.Stop();
             }
         }
         if (isJumpingEnabled)
@@ -105,8 +105,7 @@ public class Player : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.W) && IsGrounded())
             {
                 rb.velocity = new Vector2(0, 1) * jump;
-                audioSource.clip = audioGame[0];
-                audioSource.Play();
+                jumpsfx.Play();
                 jumpInProgress = true;
                 return;
             }
