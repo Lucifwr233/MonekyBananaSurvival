@@ -7,6 +7,7 @@ public class Ular_Enemy : MonoBehaviour
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] private float damage;
     [SerializeField] private float moveDistance = 5f; // Jarak total yang akan ditempuh ular
+    [SerializeField] public AudioSource Ularsfx;
     private Vector3 initialPosition;
     private float direction = 1; // 1 untuk gerakan ke kanan, -1 untuk gerakan ke kiri
     private SpriteRenderer spriteRenderer;
@@ -91,6 +92,7 @@ public class Ular_Enemy : MonoBehaviour
             else
             {
                 // Player touched the enemy, do whatever you want (e.g., damage the player)
+                Ularsfx.Play();
                 player.GetComponent<Health>().TakeDamage(damage);
             }
         }

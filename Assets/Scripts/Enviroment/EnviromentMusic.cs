@@ -36,6 +36,8 @@ public class EnviromentMusic : MonoBehaviour
                 return audioGame[0];
             case "Gameplay2":
                 return audioGame[1];
+            case "Gameplay3":
+                return audioGame[2];
             // Add more cases for additional scenes as needed
             default:
                 return null;
