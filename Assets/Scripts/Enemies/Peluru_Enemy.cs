@@ -6,6 +6,7 @@ public class Peluru_Enemy : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] private float damage;
+    [SerializeField] public AudioSource Pelurusfx;
 
     private bool isMoving = false;
     private Camera mainCamera;
@@ -43,6 +44,7 @@ public class Peluru_Enemy : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            Pelurusfx.Play();
             collision.GetComponent<Health>().TakeDamage(damage);
 
         }

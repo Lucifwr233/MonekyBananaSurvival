@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Tawon_Enemy : MonoBehaviour
 {
+    [SerializeField] public AudioSource Elangsfx;
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] private float damage;
 
@@ -44,6 +45,7 @@ public class Tawon_Enemy : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            Elangsfx.Play();
             collision.GetComponent<Health>().TakeDamage(damage);
 
         }
