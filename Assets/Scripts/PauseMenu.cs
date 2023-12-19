@@ -7,9 +7,6 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsOver = false;
     public static bool GameIsFinished = false;
 
-    [SerializeField] public AudioSource Winsfx;
-    [SerializeField] public AudioSource Losesfx;
-
     public GameObject pauseMenuUI;
     public GameObject GameOver;
     public GameObject InGameUI;
@@ -130,7 +127,6 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         InGameUI.SetActive(false);
         GameOver.SetActive(true);
-        Losesfx.Play();
         EnviromentMusic environmentMusic = FindObjectOfType<EnviromentMusic>();
         if (environmentMusic != null)
         {
@@ -147,7 +143,6 @@ public class PauseMenu : MonoBehaviour
         InGameUI.SetActive(false);
         FinishUI.SetActive(true);
         GameIsFinished = true;
-        Winsfx.Play();
         EnviromentMusic environmentMusic = FindObjectOfType<EnviromentMusic>();
         if (environmentMusic != null)
         {

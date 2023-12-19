@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class FInishTrigger : MonoBehaviour
 {
+    [SerializeField] public AudioSource Winsfx;
+
 
     public delegate void FinishEvent();
     public static event FinishEvent OnFinish;
@@ -24,6 +26,7 @@ public class FInishTrigger : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            Winsfx.Play();
             UnlockNewLevel();
             PauseMenu.GameIsFinished = true;
         }

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class FallTrigger : MonoBehaviour
 {
+    [SerializeField] public AudioSource Losesfx;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class FallTrigger : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            Losesfx.Play();
             LevelManager.instance.ResetCoin();
             PauseMenu.GameIsOver = true;
             //SceneManager.LoadScene("LevelSelection");
