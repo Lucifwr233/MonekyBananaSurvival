@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] public AudioSource walksfx;
     [SerializeField] public AudioSource coinsfx;
     [SerializeField] public AudioSource jumpsfx;
+    [SerializeField] public AudioSource healthsfx;
 
     Rigidbody2D rb;
     //bool isGrounded = false;
@@ -68,6 +69,11 @@ public class Player : MonoBehaviour
     public void CoinColl()
     {
         coinsfx.Play();
+    }
+
+    public void HealthColl()
+    {
+        healthsfx.Play();
     }
 
     public void EnemyColl()
