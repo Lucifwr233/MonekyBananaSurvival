@@ -2806,6 +2806,10 @@ PlayableDirector:
     value: {fileID: 1067051113}
   - key: {fileID: -1604912293743982700, guid: 24f9a0f949daf0a4abf394d9f239686f, type: 2}
     value: {fileID: 334291844}
+  - key: {fileID: -3520519767418242580, guid: 24f9a0f949daf0a4abf394d9f239686f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2911830536945538861, guid: 24f9a0f949daf0a4abf394d9f239686f, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - 0a615bf9c651a784883a706203fcd801: {fileID: 1376187857}
