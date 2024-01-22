@@ -55,6 +55,7 @@ public class Player : MonoBehaviour
             Debug.DrawRay(transform.position, Vector2.down * radius, Color.green);
             Debug.Log("Ground detected!");
             return true;
+
         }
         else
         {
