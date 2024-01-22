@@ -52,11 +52,9 @@ public class Player : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, radius, groundLayer);
         if (hit.collider != null)
         {
-
             Debug.DrawRay(transform.position, Vector2.down * radius, Color.green);
             Debug.Log("Ground detected!");
             return true;
-
         }
         else
         {
