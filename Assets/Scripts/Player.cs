@@ -172,7 +172,6 @@ public class Player : MonoBehaviour
     }
 
 
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Ular") // Assuming "Ular" is the tag of your snake/enemy
